@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Meteo</title>
+    <link rel="stylesheet" href="meteo.css">
+    <script src="meteo.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Accesso alle API delle previsioni Meteo</h2>
+        <h3>Immetti il nome della città e la nazione di appartenenza. Premi "Invia" per vedere il meteo</h3>
+
+        <input type="text" name="citta" id="citta" placeholder="Inserisci la città">
+        <select name="select" id="select">
+            <option value="select" disabled selected>Scegli la Nazione</option>
+        </select>
+
+        <button id="invia">Invia</button>
+        <button id="reset">Reset</button>
+
+        <table class="tbl tbl-bordered"></table>
+    </div>
+
+    
+</body>
+</html>
